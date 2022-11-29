@@ -1,0 +1,4 @@
+Threat by aliens,space,500,1000
+Threat by zombies,land,200,40
+Threat by sharks,sea,240,70
+Threat by dragons,air,500,1000
