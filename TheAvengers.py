@@ -35,6 +35,8 @@ class TheAvengers:
         return temp
     def get_name(self):
         return self.name
+    def get_location(self):
+        return [self.x,self.y]
      
 def create_Avengers():
     #This function Build The Avengers
@@ -45,8 +47,4 @@ def create_Avengers():
     BlackWindow = TheAvengers('BlackWindow' , ('Land'), 0.5, 5)
     Hulk = TheAvengers('Hulk' , ('Land','Space'),3, 10)
     Hawkeye = TheAvengers('Hawkeye' , ('Land'),0.5, 5)
-    return (IronMan,CaptainAmerica,Thor,BlackWindow,Hulk,Hawkeye)
-
-'''lst = list(create_Avengers())
-for i in lst:
-    print(i.get_dict_info())'''
+    return [IronMan,CaptainAmerica,Thor,BlackWindow,Hulk,Hawkeye]

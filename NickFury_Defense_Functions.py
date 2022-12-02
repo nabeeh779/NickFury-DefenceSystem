@@ -5,6 +5,8 @@ from time import sleep
 
 HR = {}
 def select_crew():
+   #This function form the crew
+   ## this function is not finished
    
     num = int(crew_number())
     temp = []
@@ -50,5 +52,6 @@ def import_avengers():
         temp.append(element.get_dict_info())#append all The Avengers in one list
     return temp
 
-print('HR is:' + str(selectHR()))
+var =  selectHR()
+print('HR is:' +  str(var[0]))
 print('crew members:'+str(select_crew()))    
